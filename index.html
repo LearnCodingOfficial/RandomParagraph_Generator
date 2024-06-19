@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Random ParaGen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <div class="header">
+          <div class="left">
+            <input type="number" name="" id="num-input" class="value" value="5"/>
+
+            <select id="opt-input" class="value">
+              <option value="paras">Paragraph</option>
+              <option value="sentences">Sentences</option>
+            </select>
+          </div>
+
+          <div class="right">
+            <button class="btn" id="gen-btn">Generate</button>
+            <button class="btn" id="copy-btn">
+              <span>Copy</span><i class="fa-solid fa-copy"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <div class="gen-body">
+        <div class="gen-content">
+         
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
